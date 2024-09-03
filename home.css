@@ -1,13 +1,12 @@
 .body{
   height: 100vh;
-  background-color: #8D99AE;
-  background-image: linear-gradient(to bottom right, #8D99AE, #2B2D42);
+  background-color: #FEFAE0;
 }
 
 .topnavigation{
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 12px;
-  background-color: #2B2D42;
+  background-color: #D4A373;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -27,17 +26,13 @@
 }
 
 .topnavigation a:hover{
-  background-color: #EDF2F4;
+  background-color: #FEFAE0;
   color: #2B2D42;
 }
 
-.topnavigation a:active{
-
-
-}
-
 .name-header{
-  font-size: 25px;
+  margin-top: 30px;
+  font-size: 120px;
+  color: #9fab76;
   font-family: "Open Sans";
-  color: #5F0F40;
 }

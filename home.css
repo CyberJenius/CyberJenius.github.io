@@ -36,3 +36,26 @@
   color: #9fab76;
   font-family: "Open Sans";
 }
+
+.blinking-cursor{
+  font-size: 120px;
+  color: #9fab76;
+  font-family: "Open Sans";
+  padding: .1em;
+  animation: blink .5s infinite;
+}
+
+@keyframes  blink{
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.divider2{
+  display: flex;
+}

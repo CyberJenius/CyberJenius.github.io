@@ -1,8 +1,7 @@
-const names = ["Christopher J. Grieco II", "C. J."];
+const names = ["Christopher J. Grieco II", "C.J.Grieco"];
 
 let i = 0;
 let timer;
-
 
 function deleter(){
   let name = names[i].split("");
@@ -25,21 +24,19 @@ function deleter(){
   del();
 };
 
-
 function typer(){
-  let name = names[i].split("");
+  let name = names[1].split("");
   console.log(name);
   var type = function(){
-    if (name.length > 0){
-      console.log(document.getElementById("name").innerHTML);
-      name = document.getElementById("name").innerHTML += name.shift();
+    if(name.length > 0){
+      let currVal = name.shift();
+      document.getElementById("name").innerHTML += currVal;
     } else {
-      deleter();
       return false;
     };
-    timer = setTimeout(type, 500);
+    timer = setTimeout(type, 300);
   };
   type();
-}
+};
 
 setTimeout(deleter(), 3000);

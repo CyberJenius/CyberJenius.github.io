@@ -41,8 +41,8 @@
   font-size: 120px;
   color: #9fab76;
   font-family: "Open Sans";
-  padding: .1em;
-  animation: blink .5s infinite;
+  animation: blink .8s infinite;
+  margin-top: 30px;
 }
 
 @keyframes  blink{

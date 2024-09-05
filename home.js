@@ -3,6 +3,7 @@ const names = ["Christopher J. Grieco II", "C. J."];
 let i = 0;
 let timer;
 
+
 function deleter(){
   let name = names[i].split("");
   console.log(name);
@@ -16,7 +17,7 @@ function deleter(){
       } else {
         i = 0;
       };
-      typer();
+      setTimeout(typer(), 3000);
       return false;
     };
     timer = setTimeout(del, 200);
@@ -25,7 +26,6 @@ function deleter(){
 };
 
 
-console.log("Hello");
 function typer(){
   let name = names[i].split("");
   console.log(name);
@@ -42,4 +42,4 @@ function typer(){
   type();
 }
 
-deleter();
+setTimeout(deleter(), 3000);

@@ -1,4 +1,4 @@
-const names = ["Christopher J. Grieco II", "C.J.Grieco"];
+const names = ["Christopher J. Grieco II    ", "C.J.Grieco"];
 
 let i = 0;
 let timer;
@@ -39,4 +39,6 @@ function typer(){
   type();
 };
 
-setTimeout(deleter(), 3000);
+deleter();
+
+

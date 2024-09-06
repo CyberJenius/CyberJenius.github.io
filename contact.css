@@ -32,68 +32,82 @@
   color: #2B2D42;
 }
 
-.title-card{
-  font-size: 50px;
-  font-family: "Ubuntu";
-  text-decoration: underline;
-  color: #D4A373;
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
-
-.why-contact{
-  font-size: 20px;
-  font-family: "Ubuntu";
-  color: #9fab76;
-  margin-top: 10px;
-}
-
-.list{
-  font-size: 20px;
-  font-family: "Ubuntu";
-  color: #9fab76;
-  margin-top: 10px;
-}
-
 .list-label{
+  font-family: "Ubuntu";
   font-weight: bold;
-  font-size: 25px;
+  font-size: 50px;
   color:#D4A373;
   text-decoration: underline;
   margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.info-div{
+  font-family: "Ubuntu";
+  font-size: 20px;
+  color:#9fab76;
+  margin-bottom: 50px;
 }
 
 .name-label{
   font-weight: bold;
-  margin-bottom: 5px;
 }
 
 .phone-label{
-  margin-top: 5px;
-  margin-bottom: 5px;
   font-weight: bold;
 }
 
 .resume-flex{
   display: flex;
   flex-direction: column;
-  margin-top: -254px;
 }
 
 .resume-header{
+  margin-top: 50px;
   font-weight: bold;
   font-family: "Ubuntu";
   font-size: 25px;
   color:#D4A373;
   text-decoration: underline;
-  margin-bottom: 5px;
-  margin-left: auto;
-  margin-right: 700px;
 }
 
 .resume{
   width: 800px;
   height: 1100px;
-  margin-left: auto;
-  margin-bottom: 30px;
+}
+
+.email{
+  background-color:#FEFAE0;
+  padding: 16px;
+  color: #9fab76;
+  text-decoration: none;
+  font-family: "Ubuntu";
+  border-style: solid;
+  border-radius: 32px;
+  text-align: center;
+  transition: color .5s, background-color .5s;
+}
+
+.email:hover{
+  background-color: #9fab76;
+  color:#FEFAE0;
+}
+
+
+.linkedin-page{
+  background-color:#FEFAE0;
+  padding: 16px;
+  color: #9fab76;
+  text-decoration: none;
+  font-family: "Ubuntu";
+  border-radius: 32px;
+  margin-left: 30px;
+  border-style: solid;
+  text-align: center;
+  transition: color .5s, background-color .5s;
+}
+
+.linkedin-page:hover{
+  background-color: #9fab76;
+  color:#FEFAE0;
 }

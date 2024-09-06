@@ -53,10 +53,23 @@
 }
 
 .introduction{
+  text-indent: 40px;
   font-size: 20px;
   font-family: "Ubuntu";
   color: #EDF2F4;
   margin-top: -640px;
   overflow: hidden;
   margin-left: 515px;
+  line-height: 30px;
+}
+
+.part2{
+  text-indent: 40px;
+  font-size: 20px;
+  font-family: "Ubuntu";
+  color: #EDF2F4;
+  margin-top: 0px;
+  overflow: hidden;
+  margin-left: 515px;
+  line-height: 30px;
 }

@@ -1,0 +1,67 @@
+.body{
+  height: 100vh;
+  background-color: #FEFAE0;
+}
+
+.topnavigation{
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 15px;
+  background-color: #D4A373;
+  overflow: hidden;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.topnavigation a {
+  float: left;
+  border-style: solid;
+  border-color: #EDF2F4;
+  border-radius: 24px;
+  color: #EDF2F4;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px;
+  transition: color .5s, background-color .5s;
+}
+
+.topnavigation a:hover{
+  background-color: #FEFAE0;
+  color: #2B2D42;
+}
+
+p{
+  font-family: "ubuntu";
+  font-size: 20px;
+  color:#D4A373;
+  margin-top: 10px;
+}
+
+.title{
+  font-family: "ubuntu";
+  font-size: 55px;
+  text-decoration: underline;
+  color: #9fab76;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.website-title{
+  font-family: "ubuntu";
+  font-size: 50px;
+  color: #9fab76;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+
+.school-title{
+  font-family: "ubuntu";
+  font-size: 50px;
+  color: #9fab76;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+

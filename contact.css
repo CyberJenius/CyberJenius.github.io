@@ -45,7 +45,7 @@
 .info-div{
   font-family: "Ubuntu";
   font-size: 20px;
-  color:#9fab76;
+  color:#CCD5AE;
   margin-bottom: 50px;
 }
 
@@ -79,7 +79,7 @@
 .email{
   background-color:#FEFAE0;
   padding: 16px;
-  color: #9fab76;
+  color: #CCD5AE;
   text-decoration: none;
   font-family: "Ubuntu";
   border-style: solid;
@@ -89,7 +89,7 @@
 }
 
 .email:hover{
-  background-color: #9fab76;
+  background-color: #CCD5AE;
   color:#FEFAE0;
 }
 
@@ -97,7 +97,7 @@
 .linkedin-page{
   background-color:#FEFAE0;
   padding: 16px;
-  color: #9fab76;
+  color: #CCD5AE;
   text-decoration: none;
   font-family: "Ubuntu";
   border-radius: 32px;
@@ -108,14 +108,14 @@
 }
 
 .linkedin-page:hover{
-  background-color: #9fab76;
+  background-color: #CCD5AE;
   color:#FEFAE0;
 }
 
 .github-page{
   background-color:#FEFAE0;
   padding: 16px;
-  color: #9fab76;
+  color: #CCD5AE;
   text-decoration: none;
   font-family: "Ubuntu";
   border-style: solid;
@@ -126,6 +126,6 @@
 }
 
 .github-page:hover{
-  background-color: #9fab76;
+  background-color: #CCD5AE;
   color:#FEFAE0;
 }

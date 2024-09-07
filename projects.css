@@ -43,24 +43,53 @@ p{
   font-family: "ubuntu";
   font-size: 55px;
   text-decoration: underline;
-  color: #9fab76;
+  color: #CCD5AE;
   margin-top: 10px;
   margin-bottom: 0px;
+}
+
+.website-div{
+  background-color: #E9EDC9;
+  border-radius: 100px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #2B2D42;
 }
 
 .website-title{
   font-family: "ubuntu";
   font-size: 50px;
-  color: #9fab76;
+  color: #D4A373;
   margin-top: 10px;
   margin-bottom: 0px;
+  text-decoration: underline;
 }
 
-
+.school-div{
+  background-color: #D4A373;
+  border-radius: 100px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #2B2D42;
+  
+}
 .school-title{
   font-family: "ubuntu";
   font-size: 50px;
-  color: #9fab76;
+  color: #CCD5AE;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+.school-text{
+  color:#CCD5AE;
+}
+
+.school-projects{
+  font-family: "ubuntu";
+  font-size: 20px;
+  color: #CCD5AE;
   margin-top: 10px;
   margin-bottom: 0px;
 }

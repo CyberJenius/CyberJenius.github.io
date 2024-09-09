@@ -84,6 +84,27 @@ p{
   padding: 30px;
   border-style: solid;
   border-color: #2B2D42;
+  padding-bottom: 70px;
+}
+
+
+.github-logo{
+  width: 30vh;
+  float: left;
+  border-style: solid;
+  border-radius: 50px;
+  margin-bottom: 0px;
+}
+
+.website-code{
+  width: 100vh;
+  margin-top: 0px;
+  border-style: solid;
+  border-radius: 100px;
+  float: left;
+  margin-top: 80px;
+  margin-right: 10px;
+  margin-left: -200px;
 }
 
 .website-title{
@@ -93,6 +114,7 @@ p{
   margin-top: 10px;
   margin-bottom: 0px;
   text-decoration: underline;
+  margin-bottom: 10px;
 }
 
 .school-div{

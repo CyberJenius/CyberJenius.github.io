@@ -56,6 +56,14 @@ p{
   border-color: #2B2D42;
 }
 
+.windowsVM-image{
+  height: 70vh;
+  border-style: solid;
+  border-radius: 100px;
+  float: right;
+  margin-left: 10px;
+}
+
 .windowsVM-title{
   font-family: "ubuntu";
   font-size: 50px;

@@ -48,6 +48,28 @@ p{
   margin-bottom: 0px;
 }
 
+.windowsVM-div{
+  background-color: #D4A373;
+  border-radius: 100px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #2B2D42;
+}
+
+.windowsVM-title{
+  font-family: "ubuntu";
+  font-size: 50px;
+  color: #CCD5AE;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+.windowsVM-text{
+  color:#CCD5AE;
+}
+
+
 .website-div{
   background-color: #E9EDC9;
   border-radius: 100px;

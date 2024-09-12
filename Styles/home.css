@@ -35,15 +35,19 @@
 .name-header{
   margin-top: 30px;
   font-size: 120px;
+  size: 100%;
   color: #9fab76;
-  font-family: "Open Sans";
+  font-family: "Ubuntu";
   margin-bottom: 30px;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .blinking-cursor{
   font-size: 120px;
+  size: 100%;
   color: #9fab76;
-  font-family: "Open Sans";
+  font-family: "Ubuntu";
   animation: blink .8s infinite;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -62,10 +66,12 @@
 }
 .divider1{
   display: flex;
+  flex-direction: row;
+  align-items: top;
 }
 
 .headshot-photo{
-  margin-top: -50px;
+  margin-top: 0px;
   width: 400px;
   height: 450px;
   display: block;

@@ -115,3 +115,111 @@
 
 /*This is the end of the first article link */
 
+.article2{
+  display: flex; 
+  flex-direction: row;
+  width: 1000px;
+
+}
+
+.imagediv2{
+  width: 300px;
+}
+
+.html-image{
+  width: 100%;
+  border-radius: 25px;
+  transition: border-radius, .5s;
+}
+
+.html-image:hover{
+  border-radius: 0px;
+}
+
+.link2{
+  text-decoration: none;
+  display: flex;
+}
+
+.textdiv2{
+  align-self: top;
+  margin-left: 10px;
+}
+
+.header2{
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: "ubuntu";
+  margin-bottom: 5px;
+  color:#EDF2F4;
+  transition: text-decoration, .5s;
+}
+
+.header2:hover{
+  text-decoration: underline;
+}
+
+.information2{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  color:#EDF2F4;
+  justify-content: space-between;
+}
+
+/*End of second article link*/
+
+.article3{
+  display: flex; 
+  flex-direction: row;
+  width: 1000px;
+
+}
+
+.imagediv3{
+  width: 300px;
+}
+
+.html-image{
+  width: 100%;
+  border-radius: 25px;
+  transition: border-radius, .5s;
+}
+
+.html-image:hover{
+  border-radius: 0px;
+}
+
+.link3{
+  text-decoration: none;
+  display: flex;
+}
+
+.textdiv3{
+  align-self: top;
+  margin-left: 10px;
+}
+
+.header3{
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: "ubuntu";
+  margin-bottom: 5px;
+  color:#EDF2F4;
+  transition: text-decoration, .5s;
+}
+
+.header3:hover{
+  text-decoration: underline;
+}
+
+.information3{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  color:#EDF2F4;
+  justify-content: space-between;
+}
+
+/* End of third article link*/
+

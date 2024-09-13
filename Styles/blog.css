@@ -58,6 +58,8 @@
   border: 4px solid #D4A373;
 }
 
+/*This is the start of the first article link*/
+
 .article1{
   display: flex; 
   flex-direction: row;
@@ -110,3 +112,6 @@
   width: 300px;
   color: #EDF2F4;
 }
+
+/*This is the end of the first article link */
+

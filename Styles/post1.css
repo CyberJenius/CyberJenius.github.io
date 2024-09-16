@@ -62,4 +62,34 @@
 .title{
   font-family: "ubuntu";
   margin-left: 5px;
+  color:#EDF2F4;
+  font-size: 50px;
+  margin-bottom: 45px;
+}
+
+/* end of header and backbutton css*/
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  margin-top: 0px;
+  margin-left: 5px;
+  color: rgb(71, 66, 66);
+  font-family: "Ubuntu";
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.blog-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-text p{
+  font-family: "ubuntu";
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 30px;
 }
